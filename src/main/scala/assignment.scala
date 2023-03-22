@@ -38,7 +38,7 @@ object assignment {
       joinDf.show()
 
     })
-    ssc.start()
-    ssc.awaitTermination()
+//    ssc.start()
+//    ssc.awaitTermination()
 
   }}
