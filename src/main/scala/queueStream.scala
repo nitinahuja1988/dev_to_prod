@@ -19,6 +19,7 @@ object queueStream {
       rdd.map( num => if (num%2==0) ("even",num) else ("odd",num))
     }}
     val res = evenOdd.reduceByKey(_+_)
-    res.print
-    ssc.start()
-    ssc.awaitTermination()}}
+//    res.print
+//    ssc.start()
+//    ssc.awaitTermination()
+}}
